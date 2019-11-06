@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>King's Landing | Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Welcome to King's Landing">
+  <meta name="keywords" content="night club/restaurant, endless entertainment, once in a life time experience">
+  <meta name="author" content="Joshua Cox">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">King's </span>Landing </h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1> Welcome to King's Landing </h1>
+      <p>Welcome to King's Landing where we aim to full fill all of your needs. Here at King's Landing we pride
+        ourselves in the
+        versatility of our business to be able to cater to all groups. Our only motto is until the music is gone, let's
+        party on.</p>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe To Our Newsletter </h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="boxes">
+    <div class="container">
+      <!-- <iframe src="https://giphy.com/embed/zFSGphnnT9opa" allowFullScreen></iframe> -->
+
+      <div class="box">
+        <img src="./images/logo.png">
+        <h3>Get to know us</h3>
+        <p>We're a fairly knew company that have big aspirations. We are looking to establish a real connection with our
+          customers so we can help cater better.</p>
+      </div>
+      <div class="box">
+        <img src="./images/logo2.png">
+        <h3>Motto</h3>
+        <p>Till The Music Is Gone, Let's Party On!</p>
+      </div>
+      <div class="box">
+        <img src="./images/logo3.png">
+        <h3>Keep up to date</h3>
+        <p>There will be many many new improvements to give you the best experience </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>King's Landing, Copyright &copy; 2018</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+  <!-- Firebase Scripts -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCy1lVCCAXBa2atD1oZDg5WNjK1lAiU72c",
+      authDomain: "counter-887fd.firebaseapp.com",
+      databaseURL: "https://counter-887fd.firebaseio.com",
+      projectId: "counter-887fd",
+      storageBucket: "counter-887fd.appspot.com",
+      messagingSenderId: "310620660950",
+      appId: "1:310620660950:web:2e7c0ae5d5332a544bd577"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+
+  <!-- Js script -->
+  <script src="King's_Landing.js"></script>
+</body>
+
+</html>
